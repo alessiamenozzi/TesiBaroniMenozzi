@@ -9,11 +9,8 @@ there are two:
   
 -  2D and 2.5D Combination which aims to classify CT images in 2D and 2.5D through combination of deep networks and radiomics. Features from the best radiomic model and the best model for each neural network were integrated and can be found in the csv file under the "Combinations" folder (named selected_features_{deep network}\_rad_{type image}.csv). Then this set of combined features was then refined using an importance-based filter, which retains features with at least 50% of the importance of the most significant features as measured by the Gini in- dex from a RF (important features are saved as 'important_features{deep network}\_{type image}.csv'. Additionally, the classifier is determined using a single stratified validation set of 27 patients. The trained classifier is saved as trained_classifier_{deep network}_{type image}.pkl
 
-
-Libraries versions: Python 3.11, Keras 3.3.3, scikit-learn 1.5.2, TensorFlow 2.16.1, and Pyradiomics 3.0.1.
-
-
-# README.md
+- **2024_12_Baroni_Menozzi_Executive_Summary_02.pdf**: Updated executive summary of the project, providing an overview of the main results and conclusions.  
+- **2024_12_Baroni_Menozzi_Tesi_01.pdf**: Preliminary version of the thesis, including detailed analyses, methodology, and research findings.  
 
 ## ClassificatoriFINAL
 
@@ -121,6 +118,7 @@ Libraries versions: Python 3.11, Keras 3.3.3, scikit-learn 1.5.2, TensorFlow 2.1
 ## USEFUL LIBRARIES
 Below are some libraries and their versions used:
 
+- `Python`                       3.11
 - `keras`                        3.4.1
 - `Keras-Preprocessing`          1.1.2
 - `numpy`                        1.26.4
