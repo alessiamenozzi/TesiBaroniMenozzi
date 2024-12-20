@@ -1,4 +1,4 @@
-# TesiBaroniMenozzi
+# Carotid Plaques Thesis
 Tesi Placche Carotide
 
 
